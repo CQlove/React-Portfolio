@@ -6,10 +6,12 @@ import Phone from "../assets/Phone.png";
 
 const Footer = () => {
     return (
-        <footer>
+        <footer style={{ backgroundColor: '#8D9092' }}>
             <div class="container text-center">
                 <div id="side-text-footer">
-                    <p id="contact"> Contact Me</p>
+                    <p id="contact" style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                        Contact Me
+                    </p>
                 </div>
                 <div id="contact-info">
                     {/* email link to send me email  */}
