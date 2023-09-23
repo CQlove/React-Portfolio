@@ -66,7 +66,7 @@ export default function Contact() {
     return (
         <div className='container-fluid' style={{ minHeight: "85vh", color: '#87CEEB', backgroundImage: `url("${backgroundImage}")` }}>
             <div className="container text-center p-5">
-                <h3>Hello {userName}, Please share your thoughts with me!</h3>
+                <h3>Hello {userName}, please share your thoughts with me!</h3>
                 <form className="form" onSubmit={handleFormSubmit}>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="inputGroup-sizing-default">E-mail:</span>
