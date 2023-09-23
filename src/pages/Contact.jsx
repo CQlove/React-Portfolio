@@ -64,7 +64,7 @@ export default function Contact() {
 
 
     return (
-        <div className='container-fluid' style={{ color: '#87CEEB', backgroundImage: `url("${backgroundImage}")` }}>
+        <div className='container-fluid' style={{ minHeight: "85vh", color: '#87CEEB', backgroundImage: `url("${backgroundImage}")` }}>
             <div className="container text-center p-5">
                 <h3>Hello {userName}, Please share your thoughts with me!</h3>
                 <form className="form" onSubmit={handleFormSubmit}>
@@ -117,6 +117,8 @@ export default function Contact() {
                     <br />
                     <button type="submit" className="btn btn-secondary btn-lg">Submit</button>
                 </form>
+            </div>
+            <div className="container text-center">
                 {errorMessage && (
                     <div style={{ padding: '10px' }}>
                         <p className="error-text" style={{ fontSize: '20px' }}>{errorMessage}</p>
