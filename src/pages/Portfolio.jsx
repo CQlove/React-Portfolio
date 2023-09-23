@@ -113,8 +113,8 @@ export default function Portfolio() {
                                     <h5 className="card-title ">{card.title}</h5>
                                     <p className="card-text">{card.text}</p>
                                     <div className="d-flex justify-content-around align-items-center">
-                                        <a href={card.githubRepo} className="btn btn-outline-secondary">Github Repo</a>
-                                        <a href={card.deployedPage} className="btn btn-outline-secondary">Deployed page</a>
+                                        <a href={card.githubRepo} className="btn btn-outline-dark">Github Repo</a>
+                                        <a href={card.deployedPage} className="btn btn-outline-dark">Deployed page</a>
                                     </div>
                                 </div>
                             </Card>
