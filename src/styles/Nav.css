@@ -1,31 +1,31 @@
-nav {
-    /* background-color: #333; */
-    color: #fff;
-}
-
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 li {
-    margin: 10px;
-    width: 200px;
+    margin: 0;
+    padding: 10px;
 }
 
-a {
+li a {
+    display: inline-block;
     text-decoration: none;
+    text-align: center;
     color: black;
     padding: 5px;
     border: 5px solid #fff;
     border-radius: 5px;
+    width: 120px;
+    font-size: large;
 }
 
 
 .active {
     font-weight: bolder;
-    font-size: large;
+    font-size: larger;
     background-color: #fff;
     border: 5px solid;
     border-color: black;
@@ -35,11 +35,16 @@ a {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     ul {
         padding: none;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: start;
+    }
+
+    li a {
+        font-size: small;
     }
 
 }

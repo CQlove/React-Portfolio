@@ -1,6 +1,10 @@
 #header {
     padding: 25px;
     min-width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @keyframes rotate {
@@ -15,4 +19,15 @@
 
 #jc:hover {
     animation: rotate 3s linear infinite;
+}
+
+@media screen and (max-width: 992px) {
+    #header {
+        padding: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+    }
+
+
 }
