@@ -1,0 +1,45 @@
+nav {
+    /* background-color: #333; */
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin: 10px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+
+.active {
+    font-weight: bolder;
+    font-size: large;
+    background-color: #fff;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px white;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    ul {
+        padding: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+}

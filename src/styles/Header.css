@@ -1,5 +1,6 @@
 #header {
     padding: 25px;
+    min-width: 375px;
 }
 
 @keyframes rotate {

@@ -3,13 +3,14 @@ import { useLocation } from 'react-router-dom';
 import JC from '../assets/JC.jpg';
 import Nav from "./Nav";
 import '../styles/Header.css';
+import '../styles/Nav.css';
 
 const Headers = () => {
     const currentPage = useLocation().pathname;
     return (
         <div id="header" class="container-fluid" style={{ backgroundColor: '#8D9092' }}>
-            <div class="row">
-                <div class="col-lg-1 col-md-1 col-sm-1">
+            <div id="row-col" class="row">
+                <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1">
                     <img
                         id="jc"
                         src={JC}
@@ -17,9 +18,9 @@ const Headers = () => {
                         height="50"
                     />
                 </div>
-                <div class="col-lg-5 col-md-4 col-sm-1">
+                <div class="col-xl-4 col-lg-3 col-md-1">
                 </div>
-                <div class="col-lg-6 col-md-7 col-sm-10">
+                <div class="col-xl-7 col-lg-8 col-md-10">
                     <div>
                         <Nav currentPage={currentPage} />
                     </div>
