@@ -21,7 +21,7 @@
     animation: rotate 3s linear infinite;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
     #header {
         padding: 10px;
         flex-direction: column;
