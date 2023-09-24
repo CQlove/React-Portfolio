@@ -1,6 +1,7 @@
 import React from "react";
 import Photo from '../assets/photo-of-mine.jpg';
 import backgroundImage from '../assets/background.jpg';
+import '../styles/Home.css';
 
 const styles = {
     container: {
@@ -32,10 +33,10 @@ const withoutHooverImage = (e) => {
 export default function Home() {
     return (
         <div class="container-fluid p-0" style={styles.container}>
-            <div class="container h-100" style={{ paddingTop: '30px' }}>
-                <h1 class="text-center" style={{ fontSize: '40px', fontWeight: "bolder" }}>About Me</h1>
+            <h1 id="about-me">About Me</h1>
+            <div class="container-fluid h-100" style={{ padding: '30px' }}>
                 <div class="row h-100">
-                    <div class="col-lg-6 d-flex align-items-center">
+                    <div class="col-lg-6 col-md-12 d-flex align-items-center">
                         <img
                             src={Photo}
                             alt="Photo of mine"
@@ -46,9 +47,9 @@ export default function Home() {
                             onMouseLeave={withoutHooverImage}
                         />
                     </div>
-                    <div class="col-lg-6 d-flex align-items-center">
-                        <div>
-                            <p style={{ fontSize: '25px', fontWeight: "bold" }}>
+                    <div class="col-lg-6 col-md-12 d-flex align-items-center">
+                        <div id="my-story">
+                            <p>
                                 This is Jianxiong Chen!
                                 <br />
                                 A graduate of the University of Washington Foster School of Business, Jianxiong took a 180-degree

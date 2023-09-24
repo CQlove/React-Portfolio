@@ -1,0 +1,41 @@
+#about-me {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+#my-story {
+    font-size: x-large;
+}
+
+@media screen and (max-width: 992px) {
+    #my-story {
+        font-size: large;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #my-story {
+        font-size: normal;
+        margin-top: 50px;
+    }
+
+    #about-me {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #my-story {
+        font-size: small;
+        margin-top: 50px;
+    }
+
+    #about-me {
+        font-size: 25px;
+        font-weight: normal;
+    }
+}
