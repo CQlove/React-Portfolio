@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Card } from 'react-bootstrap';
+import '../styles/Portfolio.css';
 
 export default function ProjectCard({ cardData }) {
     return (
@@ -14,7 +15,7 @@ export default function ProjectCard({ cardData }) {
                 <div className="card-body text-center">
                     <h5 className="card-title ">{cardData.title}</h5>
                     <p className="card-text">{cardData.text}</p>
-                    <div className="d-flex justify-content-around align-items-center">
+                    <div id="links" >
                         <a href={cardData.githubRepo} className="btn btn-outline-dark">Github Repo</a>
                         <a href={cardData.deployedPage} className="btn btn-outline-dark">Deployed page</a>
                     </div>
