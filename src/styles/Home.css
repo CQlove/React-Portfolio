@@ -13,6 +13,7 @@
     text-align: center;
     padding: 30px;
     color: white;
+    display: inline-block;
 }
 
 #about-me:hover {

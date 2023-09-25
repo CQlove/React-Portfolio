@@ -10,6 +10,7 @@ const styles = {
         backgroundRepeat: 'no - repeat',
         backgroundAttachment: 'fixed',
         minHeight: '100vh',
+        textAlign: 'center',
     },
     image: {
         maxWidth: '60%',
@@ -32,11 +33,7 @@ const withoutHooverImage = (e) => {
 export default function Home() {
     return (
         <div class="container-fluid" style={styles.container}>
-            <div class="row justify-content-center">
-                <div class="col-6">
-                    <h1 id="about-me">About Me</h1>
-                </div>
-            </div>
+            <h1 id="about-me">About Me</h1>
             <div class="container-fluid h-100" style={{ padding: '30px' }}>
                 <div class="row h-100">
                     <div class="col-lg-6 col-md-12 d-flex align-items-center">
