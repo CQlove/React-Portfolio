@@ -40,33 +40,3 @@ li a:hover {
     border-radius: 5px;
     box-shadow: 5px 5px 5px white;
 }
-
-
-
-@media screen and (max-width: 768px) {
-    ul {
-        padding: none;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: start;
-    }
-
-    li a {
-        font-size: 10px;
-        max-width: 80px;
-        border: 2px solid #fff;
-    }
-
-    li a:hover {
-        border: 2px solid black;
-        cursor: pointer;
-        color: black;
-        transform: scale(1.1);
-        transition: transform 0.3s ease;
-    }
-
-    .active {
-        font-size: 10px;
-    }
-
-}
