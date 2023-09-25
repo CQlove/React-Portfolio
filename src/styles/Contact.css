@@ -1,0 +1,32 @@
+#contact-title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#contact-title:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form>* {
+    margin: 5px 10px;
+}
+
+
+.out-form {
+    padding: 0;
+}
