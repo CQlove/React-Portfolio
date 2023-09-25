@@ -9,17 +9,21 @@ import '../styles/Nav.css';
 
 
 const Headers = () => {
+    // find the current page by using the useLocation hook
     const currentPage = useLocation().pathname;
 
+    // track the window width to determine if the dropdown menu should be used
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
+    // update the window width state when the window resizes
     useEffect(() => {
         const resize = () => {
             setWindowWidth(window.innerWidth);
         };
-
+        // add the resize event listener
         window.addEventListener("resize", resize);
 
+        // remove the resize event listener when component uninstall
         return () => {
             window.removeEventListener("resize", resize);
         };
