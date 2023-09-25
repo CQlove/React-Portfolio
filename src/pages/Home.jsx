@@ -9,7 +9,6 @@ const styles = {
         backgroundSize: 'cover',
         backgroundRepeat: 'no - repeat',
         backgroundAttachment: 'fixed',
-        color: '#87CEEB',
         minHeight: '100vh',
     },
     image: {

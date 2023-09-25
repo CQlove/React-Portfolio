@@ -1,9 +1,10 @@
 :root {
-    --blue1: #B5CCFF;
-    --blue2: #80A8FF;
-    --blue3: #5C8FFF;
-    --blue4: #2167FF;
-    --blue5: #0051FF;
+    --gray: #333333;
+    --gray1: #666666;
+    --gray2: #999999;
+    --gray3: #CCCCCC;
+    --gray4: #E0E0E0;
+    --gray5: #F5F5F5;
 }
 
 #about-me {
@@ -11,6 +12,7 @@
     font-weight: bolder;
     text-align: center;
     padding: 30px;
+    color: white;
 }
 
 #about-me:hover {
@@ -22,7 +24,8 @@
 }
 
 #my-story {
-    font-size: x-large;
+    font-size: large;
+    color: white;
 }
 
 @keyframes shake {
@@ -31,57 +34,57 @@
     scale is the new size of the content, translate indecate the move along the axies*/
     0% {
         transform: scale(1.15) translate(1px, 2px) rotate(0deg);
-        color: var(--blue1);
+        color: var(--gray);
     }
 
     10% {
         transform: scale(1.15) translate(-1px, -1px) rotate(-1deg);
-        color: var(--blue1);
+        color: var(--gray1);
     }
 
     20% {
         transform: scale(1.15) translate(-3px, 0px) rotate(1deg);
-        color: var(--blue2);
+        color: var(--gray2);
     }
 
     30% {
         transform: scale(1.15) translate(3px, 1px) rotate(0deg);
-        color: var(--blue2);
+        color: var(--gray2);
     }
 
     40% {
         transform: scale(1.15) translate(1px, -2px) rotate(1deg);
-        color: var(--blue3);
+        color: var(--gray3);
     }
 
     50% {
         transform: scale(1.15) translate(-1px, 1px) rotate(-1deg);
-        color: var(--blue3);
+        color: var(--gray3);
     }
 
     60% {
         transform: scale(1.15) translate(-3px, -2px) rotate(0deg);
-        color: var(--blue4);
+        color: var(--gray4);
     }
 
     70% {
         transform: scale(1.15) translate(3px, 1px) rotate(-1deg);
-        color: var(--blue4);
+        color: var(--gray4);
     }
 
     80% {
         transform: scale(1.15) translate(-1px, -0px) rotate(1deg);
-        color: var(--blue5);
+        color: var(--gray5);
     }
 
     90% {
         transform: scale(1.15) translate(1px, -1px) rotate(0deg);
-        color: var(--blue5);
+        color: var(--gray5);
     }
 
     100% {
         transform: scale(1.15) translate(1px, 2px) rotate(-1deg);
-        color: var(--blue5);
+        color: var(--gray5);
     }
 }
 
