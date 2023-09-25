@@ -1,10 +1,10 @@
 :root {
-    --gray: #333333;
-    --gray1: #666666;
-    --gray2: #999999;
+    --gray: #F2F2F2;
+    --gray1: #E5E5E5;
+    --gray2: #D8D8D8;
     --gray3: #CCCCCC;
-    --gray4: #E0E0E0;
-    --gray5: #F5F5F5;
+    --gray4: #BFBFBF;
+    --gray5: #B2B2B2;
 }
 
 #about-me {
