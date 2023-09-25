@@ -21,13 +21,13 @@
     animation-direction: alternate;
 }
 
-#resume {
-    max-width: 70%;
+#resume-img {
+    max-width: 40%;
     height: auto;
     object-fit: cover;
 }
 
-#resume:hover {
+#resume-img:hover {
     transform: scale(1.03);
     transition: 1.5s;
     box-shadow: 5px 5px 8px black;
@@ -54,6 +54,30 @@
     font-weight: bold;
     border-radius: 10px;
     box-shadow: 5px 5px 8px black;
+}
+
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+#skills-title {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+#skills-text {
+    font-size: 20px;
+    margin: 10px;
 }
 
 @keyframes shake {
@@ -119,5 +143,29 @@
 @media screen and (max-width: 768px) {
     #text {
         font-size: 15px;
+    }
+
+    #skills-title {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    #skills-text {
+        font-size: 16px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #skills-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    #skills-text {
+        font-size: 15px;
+        margin: 5px;
     }
 }
