@@ -3,14 +3,18 @@ import Github from "../assets/Github.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import Email from "../assets/Email.png";
 import Phone from "../assets/Phone.png";
+import "../styles/Footer.css";
 
 const Footer = () => {
     return (
         <footer style={{ backgroundColor: '#8D9092' }}>
             <div class="container text-center">
-                <div id="side-text-footer">
-                    <p id="contact" style={{ fontSize: '20px', fontWeight: 'bold' }}>
+                <div id="text-footer" >
+                    <p id="contact-text">
                         Contact Me
+                    </p>
+                    <p>
+                        &copy; 2023 by Jianxiong Chen
                     </p>
                 </div>
                 <div id="contact-info">
