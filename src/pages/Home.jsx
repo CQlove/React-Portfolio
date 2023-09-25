@@ -49,15 +49,13 @@ export default function Home() {
                     <div class="col-lg-6 col-md-12 d-flex align-items-center">
                         <div id="my-story">
                             <p>
-                                This is Jianxiong Chen!
-                                <br />
-                                A graduate of the University of Washington Foster School of Business, Jianxiong took a 180-degree
-                                turn into an auto mechanic with his passion for cars when it came to career choices. In the
-                                meantime, he took some self-directed programming lessons when he was not at the shop. While he
-                                enjoyed getting his hands dirty on mechanical jobs, he realized he had an even greater desire to
-                                "Think Big" through the lines of codes and fix the invisible problems. He is taken a full-stack
-                                bootcamp at the University of Ohio to pursue his dream of becoming a software developer. Check out
-                                his portfolio page to see his projects.
+                                &nbsp;&nbsp;This is Jianxiong Chen! A graduate of the University of Washington Foster School
+                                of Business, Jianxiong took a 180-degree turn into an auto mechanic with his passion for cars
+                                when it came to career choices. In the meantime, he took some self-directed programming lessons
+                                when he was not at the shop. While he enjoyed getting his hands dirty on mechanical jobs, he
+                                realized he had an even greater desire to "Think Big" through the lines of codes and fix the
+                                invisible problems. He is taken a full-stack bootcamp at the University of Ohio to pursue his
+                                dream of becoming a software developer. Check out his portfolio page to see his projects.
                             </p>
                         </div>
                     </div>

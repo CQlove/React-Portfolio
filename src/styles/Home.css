@@ -24,8 +24,11 @@
 }
 
 #my-story {
-    font-size: large;
+    font-size: larger;
     color: white;
+    text-align: justify;
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 @keyframes shake {
@@ -90,6 +93,7 @@
 
 @media screen and (max-width: 992px) {
     #my-story {
+        max-width: 80%;
         font-size: large;
         margin-top: 50px;
     }
