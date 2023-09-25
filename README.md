@@ -68,7 +68,7 @@ This project mainly has four sections (About Me, Portfolio, Contact, Resume). Cl
 
 [Link to the code repository](https://github.com/CQlove/React-Portfolio)
 
-[Link to the deployed page]()
+[Link to the deployed page](https://portfolio-jianxiong.netlify.app/)
 
 ## Screenshot
 
