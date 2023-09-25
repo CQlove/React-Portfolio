@@ -72,4 +72,4 @@ This project mainly has four sections (About Me, Portfolio, Contact, Resume). Cl
 
 ## Screenshot
 
-[screenshot](./src/assets/screenshot.png)
+![screenshot](./src/assets/screenshot.png)
