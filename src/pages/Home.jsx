@@ -12,7 +12,7 @@ const styles = {
         minHeight: '100vh',
     },
     image: {
-        maxWidth: '80%',
+        maxWidth: '60%',
         transition: 'transform 2s ease-in-out, box-shadow 0.3s ease-in-out',
     },
 };
