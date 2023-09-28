@@ -1,5 +1,5 @@
 import React from "react";
-import Github from "../assets/Github.png";
+import Github from "../assets/github.png";
 import LinkedIn from "../assets/LinkedIn.png";
 import Email from "../assets/Email.png";
 import Phone from "../assets/Phone.png";
