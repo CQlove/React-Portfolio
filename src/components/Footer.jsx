@@ -1,8 +1,8 @@
 import React from "react";
 import Github from "../assets/github.png";
-import LinkedIn from "../assets/LinkedIn.png";
-import Email from "../assets/Email.png";
-import Phone from "../assets/Phone.png";
+import LinkedIn from "../assets/linkedin.png";
+import Email from "../assets/email.png";
+import Phone from "../assets/phone.png";
 import "../styles/Footer.css";
 
 const Footer = () => {
