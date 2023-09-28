@@ -20,27 +20,27 @@ const Nav = ({ currentPage }) => {
                 </li>
                 <li>
                     <Link
-                        to="/Portfolio"
-                        className={activeLink === '/Portfolio' ? 'active' : ''}
-                        onClick={() => handleLinkClick('/Portfolio')}
+                        to="/portfolio"
+                        className={activeLink === '/portfolio' ? 'active' : ''}
+                        onClick={() => handleLinkClick('/portfolio')}
                     >
                         Portfolio
                     </Link>
                 </li>
                 <li>
                     <Link
-                        to="/Contact"
-                        className={activeLink === '/Contact' ? 'active' : ''}
-                        onClick={() => handleLinkClick('/Contact')}
+                        to="/contact"
+                        className={activeLink === '/contact' ? 'active' : ''}
+                        onClick={() => handleLinkClick('/contact')}
                     >
                         Contact
                     </Link>
                 </li>
                 <li>
                     <Link
-                        to="/Resume"
-                        className={activeLink === '/Resume' ? 'active' : ''}
-                        onClick={() => handleLinkClick('/Resume')}
+                        to="/resume"
+                        className={activeLink === '/resume' ? 'active' : ''}
+                        onClick={() => handleLinkClick('/resume')}
                     >
                         Resume
                     </Link>
