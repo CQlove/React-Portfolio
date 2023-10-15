@@ -1,38 +1,38 @@
 import Krapyak from './assets/krapyak.gif';
 import Maryze from './assets/maryze.png';
-import Coming from './assets/coming-soon.png';
 import Jate from './assets/jate.png';
 import NoteTaker from './assets/note-taker-cj.png';
 import WeatherDash from './assets/weather-dashboard.png';
 import WorkDay from './assets/work-day-scheduler.png';
 import Quize from './assets/code-quize.png';
 import Password from './assets/password-generator.png';
+import ShiftTalk from './assets/projectshifttalk.png'
 
 const cardData = [
     {
         id: 1,
+        title: 'shit-talk',
+        text: 'This is my final team Project (MERN) - shifttalk. ',
+        githubRepo: "https://github.com/CQlove/shift-talk",
+        deployedPage: "https://t1p3-4fd94440c532.herokuapp.com/",
+        screenShot: ShiftTalk,
+    },
+    {
+        id: 2,
+        title: 'maryze',
+        text: 'This is my second team Project (MVC) - maryze. ',
+        githubRepo: "https://github.com/CQlove/cover-letter-generator",
+        deployedPage: "https://maryze-t1p2-1c897d7fd819.herokuapp.com/",
+        screenShot: Maryze,
+    },
+    {
+        id: 3,
         title: 'krapyak',
         text: 'This is my first team Project (front end)- Krapyak. ',
         githubRepo: "https://github.com/CQlove/krapyak",
         deployedPage: "https://ronin1702.github.io/krapyak/",
         screenShot: Krapyak,
     },
-    {
-        id: 2,
-        title: 'maryze',
-        text: 'This is my second team Project (full-stack) - maryze. ',
-        githubRepo: "https://github.com/CQlove/cover-letter-generator",
-        deployedPage: "https://maryze-t1p2-1c897d7fd819.herokuapp.com/",
-        screenShot: Maryze,
-    },
-    // {
-    //     id: 3,
-    //     title: 'coming soon',
-    //     text: 'This is my final team Project - it will coming soon. ',
-    //     githubRepo: "",
-    //     deployedPage: "",
-    //     screenShot: Coming,
-    // },
     {
         id: 4,
         title: 'work-day-scheduler',
